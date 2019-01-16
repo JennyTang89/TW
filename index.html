@@ -100,9 +100,10 @@
       text-shadow: 0 1px 1px rgba(0,0,0,.5);
     }
     .carousel-caption .btn {
-      margin-top: 15px;
+      margin-top: 12px;
     }
 	
+	/*--------------------------EXP-----------------------*/
 	.divider{
 		margin:80px 0;
 		background-color:#D3D3D3;
@@ -116,10 +117,10 @@
     }
 
     .featurette-image.pull-left {
-      margin-right: 100px;
+      margin-right: 80px;
     }
     .featurette-image.pull-right {
-      margin-left: 100px;
+      margin-left: 80px;
     }
 
     .featurette-heading {
@@ -128,7 +129,7 @@
       line-height: 1;
       letter-spacing: -1px;
     }
-
+	
 	
 	/*--------------responsive CSS----------------*/
     @media (max-width: 979px) {
@@ -236,7 +237,7 @@
             <div class="carousel-caption">
               <h1 style="font-size:42px">Are you happy? | 你幸福吗?</h1>
               <p class="lead">欢迎您来参加我们的实验！</p>
-              <a class="btn btn-large btn-success" href="#exp">了解更多 &raquo;</a>
+              <a class="btn btn-large btn-success" href="#exp">了解详情 &raquo;</a>
             </div>
           </div>
         </div>
@@ -268,25 +269,46 @@
 	<!-- 实验信息 -->
 	<div id="exp" class="container">
 	  <hr class="divider">
-		  <div class="featurette">
-		    <img class="featurette-image pull-left" src="img/step1.jpg">
-		    <h2 class="featurette-heading"><strong>了解实验项目</strong><span class="muted" style="font-size:30px">It'll blow your mind.</span></h2>
-		    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-		  </div>
+		<div class="featurette">
+		  <img class="featurette-image pull-left" src="img/step1.jpg">
+		  <h2 class="featurette-heading"><strong>了解实验项目</strong><span class="muted" style="font-size:30px">这里介绍了研究内容</span></h2>
+	      </br>
+		  <p class="lead">本研究从内隐社会认知的观点出发，旨在探究<strong>内隐和外显自尊</strong>对<strong>主观幸福感</strong>的预测作用以及两者预测准确度的差异.</br><small>研究分为两部分，第一部分为基于Qaultrics在线调查系统编制的问卷，用于测量外显自尊和外显主观幸福感；第二部分为基于Inquisit 4实验系统和Greenwald七步范式编制的内隐联想测验(IAT)，用于测量内隐自尊.</small></p>
+	      <a class="btn btn-large" href="#data">查看数据分析思路 &raquo;</a>
+		</div>
 	  <hr class="divider">
-		  <div class="featurette">
-		    <img class="featurette-image pull-right" src="img/step2.jpg">
-		    <h2 class="featurette-heading"><strong>填写问卷</strong><span class="muted" style="font-size:30px">基于Qaultrics在线调查系统</span></h2>
-		    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-		    <a class="btn btn-large btn-info" href="#">点击开始填写问卷 &raquo;</a>
-		  </div>
+		<div class="featurette">
+		  <img class="featurette-image pull-right" src="img/step2.jpg">
+		  <h2 class="featurette-heading"><strong>填写问卷</strong><span class="muted" style="font-size:30px">基于Qaultrics在线调查系统</span></h2>
+	      </br>
+		  <p class="lead">在第一部分，您将填写与<strong>外显自尊和外显幸福感</strong>有关的问卷，请根据提示语认真完成作答.</br><small>问卷包含66道题目，部分的题目来源于<strong>Rosenberg自尊量表（SES）</strong>和<strong>Diener的总体生活满意度量表</strong>；同时，对于报告“不幸福”的群体，编制了题目测查其抑郁水平，来进一步探究主观幸福感、抑郁水平与自尊的关系，试图揭示人们不幸福的根源.</small></br></p>
+		  <a class="btn btn-large btn-info" href="https://bnupsych.asia.qualtrics.com/jfe/form/SV_bJeHhU0kt3A13Q9">点击开始填写问卷 &raquo;</a>
+		</div>
 	  <hr class="divider">
-		  <div class="featurette">
-		    <img class="featurette-image pull-left" src="img/step3.jpg">
-		    <h2 class="featurette-heading"><strong>完成实验</strong><span class="muted" style="font-size:30px">基于Inquisit实验编程系统</span></h2>
-		    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-			<a class="btn btn-large btn-info" href="#https://research.millisecond.com/weicong1203/selfesteem_iat.web">点击开始实验 &raquo;</a>
+		<div class="featurette">
+		  <img class="featurette-image pull-left" src="img/step3.jpg">
+		  <h2 class="featurette-heading"><strong>完成实验</strong><span class="muted" style="font-size:30px">基于Inquisit实验编程系统</span></h2>
+		  </br>
+		  <p class="lead">在第二部分，您将进行<strong>自尊内隐联想测验(Self-Esteem IAT)</strong>，请根据指导语的要求完成对属性词的<strong>分类任务</strong>.</br><small>即您需将出现的情感性和评价性属性词（分为“积极”和“消极”两类）通过按键反应归入概念词类别（分为“自我”和“他人”两类）中.</small></p>
+		  <a class="btn btn-large btn-info" href="https://research.millisecond.com/weicong1203/self_esteem_iat.web">点击开始测验 &raquo;</a>
+		  </br>
+		</div>
+	  <hr class="divider">
+	  
+		<div class="row">
+		  <div id="data" class="span3">
+			<h2 class="muted" style="margin:50px 0">数据分析思路</h2>
 		  </div>
+		  <div class="span9">
+		    <dl>
+			  <dt>总体思路</dt>
+			  <dd>采用SPSS 25.0对比内隐和外显自尊对外显幸福感的预测作用，并采用多元回归模型对主观幸福感进行序列回归分析，试图确定预测模型。</dd>
+			  </br>
+			  <dt>自尊IAT分数的处理</dt>
+			  <dd>采用Greenwald等人提出的新的计算方法：</br>（1）剔除反应时大于10000ms的反应，剔除在一个任务中有10％以上次数的反应时小于300ms的被试被试</br>（2）对于每一个任务内错误的反应，其反应时用正确反应的平均反应时加600ms代替，之后再算出该任务的平均反应时</br>（3）然后用不相容任务与相容任务的反应时之差除以两者所有反应的标准差得到一个商数</br>（4）将由练习任务得到的商数和由正式任务得到的商数平均就得到Ｄ值，用作后续分析</dd>
+		    </dl>
+		  </div>
+		</div>
 	  <hr class="divider">
 	</div>
 	
@@ -295,11 +317,11 @@
 	  <div class="row">
         <div id="about" class="span4">
             <h3>关于我们 | 分工</h3>
-            <address> Qualtrics 在线调查：张新淼、曾晓晓</br>Inquisit 实验编程：瞿晶俐、阎佳玥</br>网页设计与布局：唐瑀蓁</address>
+            <address> Qualtrics 在线调查：张新淼、曾晓晓</br>Inquisit 实验编程：瞿晶俐、阎佳玥</br>网页设计与整合：唐瑀蓁</address>
         </div>
         <div id="join" class="span4">
             <h3>加入我们 | Address</h3>
-            <address><strong>北京师范大学 心理学部</strong></br>北京市 &middot; 海淀区 &middot; 新街口外大街19号</br>邮政编码：100089</address>
+            <address><strong>北京师范大学 心理学部</strong></br>北京市 &middot; 海淀区 &middot; 新街口外大街19号</br>邮政编码：100875</address>
         </div>
 		<div id="contact" class="span4">
             <h3>联系我们 | ID number</h3>
